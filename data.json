@@ -1,0 +1,87 @@
+{
+    "projects": [
+    {"id":0,
+      "project_name": "Project 1: Quote Show",
+      "description": "Refreshing JavaScript Knowledge, creating a Quote Slide Show by modifying a web app from www.w3schools.com/howto/howto_js_quotes_slideshow.asp. The quotes are from one of my favourite books: The Boy, the Mole, the Fox and the Horse. A illustrated philosophy book.",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "image": "/images/project1-1.png",
+      "image_url":[
+        "/images/project1-1.png",
+        "/images/project1-2.png",
+        "/images/project1-3.png"
+      ],
+      
+      "links": ["https://luhvpreet.github.io/douglasCollege-advWebPgm-CSIS-3380-001-QuoteShow/",
+      "https://github.com/luhvpreet/douglasCollege-advWebPgm-CSIS-3380-001-QuoteShow"]
+    },
+
+    {"id":1,
+      "project_name": "Project 2: Page Numbering",
+      "description": "A page with long list of contact information. Where we were required to add buttons to the bottom of the page and show different sets of student information when each button is clicked.",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "image": "/images/project2-1.png",
+      "image_url":[
+        "/images/project2-1.png",
+        "/images/project2-2.png",
+        "/images/project2-3.png"
+      ],
+      
+      "links": ["https://luhvpreet.github.io/douglasCollege-advWebPgm-CSIS-3380-001-PageNumbering/",
+      "https://github.com/luhvpreet/douglasCollege-advWebPgm-CSIS-3380-001-PageNumbering"]
+    },
+
+    {"id":2,
+      "project_name": " Project 3: React Component Planets",
+      "description": "A practice of JSX, creating and rendering components, passing down props, as well as iterating over data and more, we were required to add a DELETE (or \"X\") Button to each card that removes the corresponding card if clicked.",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "image": "/images/project3-1.png",
+      "image_url":[
+        "/images/project3-1.png",
+        "/images/project3-2.png",
+        "/images/project3-3.png"
+      ],
+      "links": ["https://luhvpreet.github.io/douglasCollege-advWebPgm-CSIS-3380-001-ReactComponentPlanets/",
+      "https://github.com/luhvpreet/douglasCollege-advWebPgm-CSIS-3380-001-ReactComponentPlanets"]
+
+    },
+
+    {"id":3,
+      "project_name": "Project 4: Final Project Template",
+      "description": "Template of a  responsive website that I created for my team group final project. It has lorem data, Template is not final because I am still working on it.",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "image": "/images/project4-1.png",
+      "image_url":[
+        "/images/project4-1.png",
+        "/images/project4-2.png",
+        "/images/project4-3.png"
+      ],
+      "links": ["https://luhvpreet.github.io/douglasCollege-advWebPgm-CSIS-3380-001-FinalProjectTemplate/",
+      "https://github.com/luhvpreet/douglasCollege-advWebPgm-CSIS-3380-001-FinalProjectTemplate"]
+    }
+    ],
+
+    "portfolios": [
+      {
+        "name":"Lovepreet Singh",
+        "description":"Portfolio",
+        "job":"Student at Douglas College",
+        "image":"/images/profile.JPG",
+        "link":"https://github.com/luhvpreet"
+      }
+    ],
+
+    "contact": [
+      {
+        "name":"Lovepreet Singh",
+        "job":"Student at Douglas College",
+        "image":"/images/profile.JPG",
+        "link":"https://github.com/luhvpreet",
+        "email":"l@student.douglascollege.ca",
+        "phone":"604-621-0751",
+        "social": []
+      }
+    ],
+
+    "skills": ["HTML","CSS","JavaScript","React","Java","Node","PUG","Express"]
+  
+}

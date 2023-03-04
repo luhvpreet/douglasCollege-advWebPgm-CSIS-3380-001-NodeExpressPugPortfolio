@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+html(class="no-js" lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Portfolio Site
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='stylesheet', href='/css/foundation.css')
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
+      .grid-y.grid-padding-x(style='height: 100%;')
+        block sidebar
+          br
+        each p in portfolio
+          .cell.shrink
+
+              img.thumbnail(src=p.image)
+          .cell.auto
+
+            //- Add your name here.
+            h5= p.name
+
+            //- Add text here to describe who you are, what you do, and why you are so awesome.
+            p.text-light= p.job
+
+            //- Add about page route to the href below. 
+            a(href='/about') Learn More →
+
+    .off-canvas-content(data-off-canvas-content='')
+      .title-bar.hide-for-large
+        .title-bar-left
+          button.menu-icon(type='button', data-toggle='my-info')
+
+          //- Add your name here.  This is for the mobile screen sized version.
+          //- span.title-bar-title= p.name
+      block content
+        
+
+      
+  script(src='/js/vendor/jquery.js')
+  script(src='/js/vendor/what-input.js')
+  script(src='/js/vendor/foundation.js')
+  script(src='/js/scripts.js')
